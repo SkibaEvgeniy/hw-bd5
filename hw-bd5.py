@@ -77,7 +77,7 @@ def find_client(cur, column: str, data):
     return print(cur.fetchall())
 
 if __name__ == '__main__':
-    with psycopg2.connect(database='hw-bd5', user='postgres', password= 'Evg.es.postgre1524') as conn:
+    with psycopg2.connect(database='hw-bd5', user='postgres', password= '...') as conn:
         with conn.cursor() as cur:
             
             create_table()
